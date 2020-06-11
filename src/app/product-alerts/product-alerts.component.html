@@ -1,0 +1,4 @@
+<!-- if the product price is over $700 than replace the placeholder paragraph with a "Notify Me   -->
+<p *ngIf="product.price > 700">
+  <button (click)="notify.emit()">Notify Me</button>
+</p>
